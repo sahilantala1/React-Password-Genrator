@@ -9,7 +9,7 @@ function App() {
   const passwordGenerator = useCallback(() => {
     let pass = ""
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    //hello shail
+    //hello shail new oner 
 
     if (NumberAllowed) str += "0123456789"
     if (CharAllowed) str += "!@$#%^&*"
