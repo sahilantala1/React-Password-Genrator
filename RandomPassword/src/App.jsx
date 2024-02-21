@@ -4,6 +4,7 @@ function App() {
   const [NumberAllowed, setNumberAllowed] = useState(false)
   const [CharAllowed, setCharAllowed] = useState(false)
   const [password, setpassword] = useState("")
+  //Password
   const passwordRef = use
   const passwordGenerator = useCallback(() => {
     let pass = ""
