@@ -4,22 +4,12 @@ function App() {
   const [NumberAllowed, setNumberAllowed] = useState(false)
   const [CharAllowed, setCharAllowed] = useState(false)
   const [password, setpassword] = useState("")
-  //Password
   const passwordRef = use
   const passwordGenerator = useCallback(() => {
     let pass = ""
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-<<<<<<< HEAD
-    //hello shail new oner 
-
-=======
-    //hello
-    
->>>>>>> 8c0dd8065ac12ebb0471ce274927f50d8d539aba
     if (NumberAllowed) str += "0123456789"
     if (CharAllowed) str += "!@$#%^&*"
-
-    //sdjfsdghbsdbf
 
     for (let i = 0; i <= length; i++) {
       let char = Math.floor(Math.random() * str.length + 1)
